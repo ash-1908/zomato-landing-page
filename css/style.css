@@ -151,6 +151,30 @@ body {
 }
 
 
+/* User Input */
+
+.user__email {
+    align-items: flex-start;
+}
+
+.user__email__text {
+    font-size: 25px;
+    text-align: center;
+}
+
+.user__email__input {
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+}
+
+#user__email {
+    background-color: lightpink;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+
 /* Responsive */
 
 @media (min-width: 768px) {
